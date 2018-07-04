@@ -14,7 +14,7 @@
 
 An image classifier, trained on beer labels.
 
-Check out the [article on medium](https://medium.com/p/243572a79d) for an in-depth description.
+Check out the [article on medium](https://medium.com/@oem_83498/get-your-machine-learning-model-into-production-243572a79d) for an in-depth description.
 
 ## usage
 
