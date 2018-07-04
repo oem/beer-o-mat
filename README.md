@@ -1,4 +1,4 @@
-# Beer-O-Mat
+![Beer-O-Mat](banner.jpg "Beer-O-Mat")
 
 - [Beer-O-Mat](#beer-o-mat)
   - [What is it?](#what-is-it)
@@ -7,6 +7,8 @@
     - [label data](#label-data)
     - [train the model](#train-the-model)
     - [test](#test)
+
+# Beer-O-Mat
 
 ## What is it?
 
