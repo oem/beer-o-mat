@@ -9,9 +9,7 @@ train, test = data.random_split(0.8)
 model = tc.image_classifier.create(train, target='label', max_iterations=100)
 
 # evaluate on test data
-predictions = model.predict(test)
-metrics = model.evaluate(test)
-print(metrics)
+print(model.evaluate(test))
 
 # persist the model
 model.export_coreml(os.path.join(
