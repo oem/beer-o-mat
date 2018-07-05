@@ -16,20 +16,22 @@ An image classifier, trained on beer labels.
 
 Check out the [article on medium](https://medium.com/@oem_83498/get-your-machine-learning-model-into-production-243572a79d) for an in-depth description.
 
+### Xcode 10:
+
+![Xcode](xcode-10.png "Xcode 10")
+
+Uses Xcode Playgrounds and CreateML to create a much smaller model. The resulting Model is only 99 KB in comparison to 94,3 MB using TuriCreate.
+
 ## usage
 
 ### setup
 
-install the requirements: `pip install -r requirements.txt`
-
-### label data
-
-`make prepare_data`
+* Install macOS Mojave and Xcode 10 Beta 3
 
 ### train the model
 
-`make train_model`
+* Open the Xcode Playground and click "Train" in the Live View
 
 ### test
 
-`make test`
+* Open the Xcode Playground and drop some images into the testing area (after you are done training)
